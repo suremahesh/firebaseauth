@@ -200,6 +200,8 @@ public class upload extends AppCompatActivity implements View.OnClickListener
 
                String url1=upload.url;
 
+                Toast.makeText(upload.this, "hai", Toast.LENGTH_SHORT).show();
+
                 Glide.with(getApplicationContext())
                         .load(url1)
                         .asBitmap()
